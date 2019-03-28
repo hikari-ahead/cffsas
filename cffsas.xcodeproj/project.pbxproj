@@ -26,6 +26,7 @@
 		828DC4D5224CBA1A00D691C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		828DC4D7224CBA1A00D691C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		828DC4D8224CBA1A00D691C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		828DC4DF224CBCBD00D691C4 /* CFFSAS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFFSAS.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		828DC4C8224CBA1800D691C4 /* cffsas */ = {
 			isa = PBXGroup;
 			children = (
+				828DC4DF224CBCBD00D691C4 /* CFFSAS.h */,
 				828DC4C9224CBA1800D691C4 /* AppDelegate.h */,
 				828DC4CA224CBA1800D691C4 /* AppDelegate.m */,
 				828DC4CC224CBA1800D691C4 /* ViewController.h */,
@@ -285,15 +287,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WFCHHM4YW4;
+				DEVELOPMENT_TEAM = 54XMA2QU75;
 				INFOPLIST_FILE = cffsas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = resober.cffsas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,15 +307,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WFCHHM4YW4;
+				DEVELOPMENT_TEAM = 54XMA2QU75;
 				INFOPLIST_FILE = cffsas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = resober.cffsas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
